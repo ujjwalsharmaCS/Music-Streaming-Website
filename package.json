@@ -1,0 +1,22 @@
+{
+  "name": "musicstreamingwebapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index_cluster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
